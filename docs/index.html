@@ -6,9 +6,10 @@
 <body>
     <h1 align="center">PTFS ATC TOOL</h1>
     <h2 align="center">For ATC Airport Flight Management.</h2>
-    <form align="center" action="index.py">
+
+    <form name="airportSelectForm" align="center" onsubmit="return airportSelected()">
         <label for="airportSelect">Select Airport: </label>
-        <select name="airportSelect" required>
+        <select id="airportSelect" name="airportSelect" required>
             <option>IRFD</option>
             <option>ITKO</option>
             <option>IBTH</option>
