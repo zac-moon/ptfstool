@@ -4,5 +4,5 @@ function airportSelected() {
     console.log('Airport Selected');
     var airport = document.forms["airportSelectForm"]["airportSelect"].value;
     console.log('Selected :'+airport);
-    window.location.href = 'tool.html';
+    window.location.href = 'https://zac-moon.github.io/ptfstool/tool.html';
 }
