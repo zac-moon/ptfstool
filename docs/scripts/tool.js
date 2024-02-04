@@ -7,4 +7,8 @@ window.onload = function windowLoaded(){
 
     var toolHeading = document.getElementById('toolHeader');
     toolHeading.innerHTML = "PTFS ATC TOOL - " + airport;
+
+    var pageTitle = document.getElementById('pageTitle');
+    pageTitle.innerHTML = 'PTFS ATC TOOL - '+airport;
+
 }
