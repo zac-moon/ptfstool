@@ -5,6 +5,9 @@ function airportSelected() {
     console.log('Airport Selected');
     var airport = document.forms["airportSelectForm"]["airportSelect"].value;
     console.log('Selected :'+airport);
-    window.location.href = 'tool.html';
+    
+    var nextWindow = "tool.html?airport=" + encodeURIComponent(airport);
+
+    window.location.href = nextWindow;
     console.log('redirected')
 }
